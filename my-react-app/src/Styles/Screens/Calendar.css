@@ -1,0 +1,265 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  flex: 1;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  /* align-items: center;  Remove this line */
+  /* justify-content: center;  Remove this line */
+}
+
+
+.calendarContainer {
+  padding: 60px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1;
+}
+
+.Calendar {
+  width: 100%;
+  margin: 15px auto; /* Center the container horizontally */
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.titlecontainer{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.weektitle{
+  flex: 1;
+  margin-right: 10px;
+	font: normal 700 50px/1.2 Inter, sans-serif;
+	color: var(--bluecolor5);
+}
+
+.newPostButton{
+  padding: 0px 10px;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: max-content;
+  min-width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--bluecolor1);
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s color 0.15s;
+
+  &:hover{
+    background-color: gray;
+  }
+}
+
+
+
+
+/* From Full Calender Library */
+
+.fc .fc-media-screen .fc-direction-ltr .fc-theme-standard{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fc .fc-scrollgrid-liquid{
+  height: 82%;
+}
+
+.fc-col-header-cell-cushion {
+  color: var(--greencolor3);
+}
+
+.fc .fc-toolbar-title{
+  color: var(--greencolor3);
+  font-size:20px;
+}
+  
+.last-cell {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid #ccc; /* Add a border for visual clarity */
+  padding: 4px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+.fc-scrollgrid-shrink{
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid #ccc; /* Add a border for visual clarity */
+  padding: 4px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 580px) {
+  .fc .fc-toolbar{
+    align-items: center;
+    display: table-column;
+  }
+  .fc-toolbar-chunk{
+    margin-top:10px;
+    margin-bottom: 5px;
+  }
+  .titlecontainer{
+    display: table-column;
+    margin-bottom:0px;
+  }
+  .newPostButton{
+    display:table-column ;
+  }
+  .fc .fc-timegrid-slot-label-cushion{
+    font-size:6px;
+    line-height: 0;
+  }
+  .fc-col-header-cell-cushion{
+    font-size:10px;
+  }
+  .fc .fc-timegrid-slot{
+    height:0px;
+  }
+}
+/*
+@media screen and (max-width: 575px) {
+  .fc .fc-col-header-cell-cushion{
+    padding:0px 0px;
+  }
+  .fc .fc-timegrid-axis-cushion, .fc .fc-timegrid-slot-label-cushion{
+    padding: 0px;
+    /*size-adjust: 20;
+    line-height: 20;
+    font-size:20px;
+
+  }
+  */
+  
+
+
+
+
+.fc .fc-button .fc-icon{
+  size-adjust: 20;
+  margin-right: 5px;
+  font-size:0.3sem;
+  vertical-align:middle;
+  color:white;
+  font-size:20px;
+  margin-top:-5px;
+}
+
+.fc .fc-col-header {
+  margin: 0;
+  padding: 0;
+}
+
+.fc .fc-scrollgrid-liquid  {
+  margin: 0;
+  padding: 0;
+}
+
+.fc-timegrid-slots table {
+  margin: 0;
+  padding: 0;
+}
+
+.fc-timegrid-event-harness {
+  overflow: hidden;
+}
+
+.fc-header-toolbar {
+  background-color: var(--bluecolor2);
+  color: white;
+}
+
+.fc-event {
+  background-color: var(--bluecolor2);
+  border-color: var(--bluecolor3);
+  color: white;
+}
+
+.fc-day-header {
+  background-color: var(--greycolor2);
+  color: var(--greycolor2);
+}
+
+.fc .fc-button {
+  background-color: var(--bluecolor2);
+  border-color: var(--bluecolor2);
+  color: white;
+}
+
+.fc .fc-button:hover {
+  background-color: var(--bluecolor4);
+  border-color: var(--bluecolor4);
+}
+
+.fc-button {
+  box-shadow: none !important;
+}
+
+.fc .fc-toolbar-chunk button.fc-button-primary[aria-pressed="true"] {
+  background-color: var(--greencolor3);
+  border-color: var(--greencolor3);
+  outline: none; /* Remove the outline */
+}
+
+.fc .fc-toolbar-title {
+  color: white;
+}
+
+
+.fc-day-today {
+  background: #f1f1f1 !important;
+  border: none !important;
+} 
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0px;
+}
+.fc-event .fc-event-start .fc-event-end .fc-event-past .fc-timegrid-event .fc-v-event:hover{
+  width: 200px; /* Define a largura ao passar o mouse */
+  height: 100px;
+  overflow:visible;
+}
+
+.fc-timegrid-event-harness .fc-timegrid-event-harness-inset:hover{
+  width: 200px; /* Define a largura ao passar o mouse */
+  height: 100px;
+  overflow:visible;
+}
+
+
+.fc-event-main:hover{
+  width: 200px; /* Define a largura ao passar o mouse */
+  height: 100px;
+  overflow:visible;
+}
+
+.fc-event:hover {
+  width: 2000px; /* Define a largura ao passar o mouse */
+  height: 1000px;
+}

@@ -1,0 +1,90 @@
+
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.Login {
+    flex: 1;
+    width: 100%;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bluecolor2);
+}
+
+/*Logo*/
+.Logocontainer{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/*agrupa as caixas e o botão*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    margin-top: 10px;
+    width: 300px;
+}
+
+/* caixa de username e password */
+.Box{   
+    position:relative;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 8px;
+    border:1px solid var(--greencolor3);
+    padding: 5px 10px;
+    margin-bottom: 3%;
+}
+
+/*botão submit */
+.button {
+    padding: 5px 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--greencolor3);
+    width: fit-content;
+    min-width: 100px;
+    font-weight: bold;
+    background-color :#fff ;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--greencolor3); /* Change button background color on hover */
+    color: #fff; /* Change text color on hover */
+    font-weight: bold;
+  }
+
+/* Link "Forgot Password" */
+.forgot-link {
+    text-decoration: underline;
+    color: var(--greencolor3); /* Cor do link */
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom:20px;
+    font-size: 14px; /* Tamanho da fonte */
+  }
+  .forgot-link:hover {
+    color: var(--bluecolor3);
+  }
+  

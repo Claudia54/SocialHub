@@ -1,0 +1,19 @@
+.error {
+    display: flex;
+    position: relative;
+    background-color: var(--bluecolor4);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.errorcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.errorimg{
+    width: 90%;
+}
+

@@ -1,0 +1,485 @@
+.backgroundImg{
+	position: absolute;
+	right: 0px;
+	bottom: auto;
+	top: 130px;
+	z-index: 1;
+}
+
+/*
+* SECTION ONE
+*/
+
+.section1{
+    background: linear-gradient(264.47deg, var(--bluecolor5) 29.39%, var(--bluecolor5) 93.49%);
+    padding: 36px 80px 80px 80px;
+    flex-direction: row;
+    display: flex;
+}
+
+.section1-text{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    padding: 0px 180px 0px 0px;
+}
+
+.section1-title{
+    margin: 0px 0px 16px 0px;
+    font: normal 700 60px/1.2 Inter, sans-serif;
+    color: white;
+}
+
+.section1-subtitle{
+    font: normal 400 18px/1.5;
+	margin: 0px 0px 0px 0px;
+	color: white;
+	opacity: 1;
+}
+
+.signup-section{
+	display: flex;
+	margin: 72px 0px 0px 0px;
+}
+
+.signup{
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    color: white;
+    background-color: var(--bluecolor4);
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--bluecolor4);
+    transition: background-color 0.3s ease;
+      &:hover{
+        color: var(--bluecolor1);
+        background-color: white;
+      }
+}
+
+.section1-imgbox{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section1-img{
+    height: 100%;
+    max-width: 300px;
+    z-index: 1;
+}
+
+/*
+* SECTION TWO
+*/
+.section2{
+    padding: 60px 0 100px 0;
+}
+.section2-box{
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+}
+.section2-title{
+    margin: 0px 0px 38px 40px;
+	font: normal 700 50px/1.2 Inter, sans-serif;
+	color: var(--bluecolor4);
+	text-align: left;
+}
+.section2-apps{
+    padding: 150px 0 150px 0;
+	background: rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6123949e957019001e284458/images/Group%20177.png?v=2021-08-24T00:44:18.633Z) 0% 30% /cover no-repeat scroll padding-box;
+    flex-direction: row;
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+}
+.section2-app{
+    justify-content: center;
+    flex-direction: column;
+    background: url(https://uploads.quarkly.io/6123949e957019001e284458/images/backtio.png?v=2021-08-24T00:48:34.217Z) 5px 70px/100% no-repeat;
+    width: 180px;
+    align-items: center;
+    display: flex;
+    min-height: 320px;
+}
+.section2-app img{
+    object-fit: cover;
+	border-radius: 50%;
+	object-position: 0% 0%;
+	width: 80px;
+	height: 80px;
+	margin: 0px 0px 8px 0px;
+}
+.section2-app text{
+    text-align: center;
+	opacity: 0.7;
+	position: relative;
+	z-index: 1;
+	color: black;
+	font: normal 500 20px/1.6 Inter, sans-serif;
+	margin: 0px 0px 0px 0px;
+}
+.section2-hr1{
+    border-style: solid;
+	margin: 0px 0px 0px 0px;
+	height: 0px;
+	width: 100%;
+	border-color: rgba(66, 82, 207, 0.1);
+	border-width: 2px 0 0 0;
+}
+.section2-hr2{
+    border-style: solid;
+	margin: 0px 16px 32px 16px;
+	height: 0px;
+	display: none;
+	width: 100%;
+	border-color: rgba(66, 82, 207, 0.1);
+	border-width: 2px 0 0 0;
+}
+
+/*
+* SECTION THREE
+*/
+.section3{
+    padding: 60px 0 200px 0;
+}
+.section3-team{
+    padding: 50px 0 50px 0;
+	flex-direction: row;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.section3-members{
+    flex-direction: column;
+	justify-content: flex-start;
+	width: 15%;
+	max-height: 265px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 16px;
+}
+.section3-pic{
+    object-fit: cover;
+	border-radius: 50%;
+	object-position: 0% 0%;
+	width: 80px;
+	height: 80px;
+	margin: 0px 0px 8px 0px;					
+}
+.section3-text{
+    margin: 0px 0px 8px 0px;
+    font: normal 500 20px/1.6 Inter, sans-serif;
+    color: var(--bluecolor5);
+}
+
+/*
+*   ABOUT PAGE
+*/
+.section4{
+    padding: 60px 0 100px 0;
+    display: grid;
+}
+.section4-title{
+    margin: 0px 0px 38px 40px;
+	font: normal 700 50px/1.2 Inter, sans-serif;
+	color: var(--bluecolor4);
+	text-align: left;
+}
+.section4-functions{
+    margin: 0px 0px 20px 0px;
+    border-radius: 10px;
+    min-height: 284px;
+    padding: 0px 0px 0px 0px;
+    border-style: solid;
+    display: flex;
+    border-width: 2px;
+    width: 100%;
+    border-color: rgba(66, 82, 207, 0.1);
+    flex-direction: row;
+}
+.section4-func-img{
+    display: flex;
+    width: 40%;
+}
+.section4-img-left{
+	object-fit: cover;
+	width: 100%;
+	border-radius: 10px;
+    
+}
+.section4-img-right{
+	object-fit: cover;
+	width: 100%;
+	border-radius: 10px;
+}
+.section4-func-text{
+    padding: 32px 17% 32px 62px;
+	width: 60%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.section4-text-right{
+    color: var(--bluecolor1);
+	width: 85%;
+	margin: 0px 0px 8px 0px;
+	font: 600 20px/1.3 Inter, sans-serif;
+}
+.section4-text-left{
+    margin: 0px 0px 8px 0px;
+    color: var(--bluecolor1);
+	width: 85%;
+	margin: 0px 0px 8px 0px;
+	font: 600 20px/1.3 Inter, sans-serif;
+}
+
+/*
+*   CONTACTS PAGE
+*/
+.Container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.section5{
+    padding: 0 0 100px 0;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: row;
+}
+.section5-img{
+	border-radius: 0px 0px 10px 10px;
+}
+.section5-contacts-text{
+    padding: 32px 0px 32px 62px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.section5-text{
+    width: 300px;
+}
+
+
+/*lg*/
+@media screen and (max-width: 929px) {
+    .backgroundImg{
+        top: 88px;
+        bottom: 3511px;
+        height: 606px;
+        left: 133px;
+        width: 1000px;
+    }
+    .section1-text{
+        padding: 0px 90px 0px 0px;
+    }
+    .section1-title{
+        text-align: left;
+        font: normal 700 60px/1.2 Inter, sans-serif;
+    }
+    .section1-subtitle{
+        text-align: left;
+        font: normal 400 16px/1.5 Inter, sans-serif;
+    }
+    .signup-section{
+        margin: 32px 0px 0px 0px;
+    }
+    .signup{
+        padding: 15px 23px 15px 23px;
+        font-size: 18px;
+    }
+    .section1-img{
+        max-height: 400px;
+        position: relative;
+        left: -5px;
+    }
+
+    .section2-title{
+        font: normal 700 34px/1.2 Inter, sans-serif;
+    }
+    .section2-app text{
+        font: normal 500 16px/1.6 Inter, sans-serif;
+    }
+    .section2-hr1{
+        display: none;
+    }
+
+    .section3-team{
+        padding: 32px 16px 16px 16px;
+        min-height: 298px;
+    }
+
+    .section4{
+        padding: 60px 0 40px 0;
+    }
+    .section4-title{
+        font: normal 700 34px/1.2 Inter, sans-serif;
+    }
+    .section4-func{
+        width: 50%;
+    }
+    .section4-func-text{
+        padding: 32px 30px 32px 32px;
+        width: 50%;
+    }
+    .section4-text-right{
+        font: 600 22px/1.3 Inter, sans-serif;
+    }
+    .section4-text-left{
+        font: 600 22px/1.3 Inter, sans-serif;
+    }
+
+    .section5{
+        flex-direction: column;
+    }
+    .section5-img{
+        width: 100%;
+    }
+}
+
+/*md*/
+@media screen and (max-width: 767px) {
+    .backgroundImg{
+        top: 217px;
+        width: 743px;
+        height: 689px;
+        left: auto;
+
+    }
+    .section1{
+        padding: 36px 0 60px 30px;
+    }
+    .section1-text{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .section1-title{
+        font: normal 700 50px Inter, sans-serif;
+    }
+    .section1-subtitle{
+        font: normal 400 14px Inter, sans-serif;
+    }
+    .signup-section{
+        width: 100%;
+        margin: 36px 0px 0px 0px;
+    }
+    .signup{
+        padding: 15px 16px 15px 16px;
+        font-size: 16px;
+    }
+    .section1-imgbox{
+        display: none;
+    }
+    .section1-img{
+        display: inherit;
+    }
+
+    .section2{
+        padding: 60px 0 60px 0;
+    }
+    .section2-title{
+        font: normal 700 30px/1.2 Inter, sans-serif;
+    }
+    .section2-apps{
+        padding: 50px 0 50px 0;
+        display: grid;
+    }
+    .section2-app text{
+        font: normal 500 18px/1.6 Inter, sans-serif;
+    }
+    .section2-hr2{
+        margin: 16px 16px 16px 16px;
+        display: block;
+    }
+
+    .section3{
+        padding: 60px 0 60px 0;
+    }
+    .section3-team{
+        padding: 16px 16px 16px 16px;
+        align-items: center;
+        width: 100%;
+        display: grid;
+    }
+    .section3-members{
+        width: 100%;
+    }
+
+    .section4{
+        padding: 30px 0 30px 0;
+    }
+    .section4-title{
+        font: normal 700 25px/1.2 Inter, sans-serif;
+    }
+    .section4-functions{
+        border-radius: 0px;
+        border-width: 0px 0px 2px 0px;
+        border-color: rgba(66, 82, 207, 0.1);
+    }
+    .section4-func{
+        width: 100%;
+    }
+    .section4-img{
+        margin: 0px 0px 0px 0px;
+    }
+    .section4-func-text{
+        padding: 32px 30px 32px 32px;
+    }
+    .section4-img-left{
+        margin: 0px 0px 0px 0px;
+    }
+    .section4-img-right{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section4-func-img{
+        display: none;
+    }
+    .section4-func-text{
+        width: 100%;
+    }
+}
+
+/*sm*/
+@media screen and (max-width: 460px) {
+    .section1-title{
+        font: normal 600 30px Inter, sans-serif;
+    }
+    .signup{
+        padding: 15px 13px 15px 13px;
+        font-size: 18px;
+    }
+
+    .section2-apps{
+        padding: 0px 0 0px 0;
+    }
+    .section2-app text{
+        font: normal 500 14px/1.6 Inter, sans-serif;
+    }
+
+    .section3-team{
+        margin: 0px 0px 30px 0px;
+        padding: 32px 16px 16px 16px;
+    }
+    .section3-text{
+        text-align: center;
+    }
+
+    .section4-functions{
+        margin: 0px 0px 30px 0px;
+    }
+}

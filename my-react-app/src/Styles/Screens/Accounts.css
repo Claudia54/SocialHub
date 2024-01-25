@@ -1,0 +1,116 @@
+.Container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  height: 100%; /* Make the content div take up all available vertical space */
+  display: flex;
+  
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+}
+  
+.dropdown{
+    margin-top: 10%;
+    margin-bottom: 5%;   
+}
+
+.selectDropdown{
+  background-color: white; 
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border-color: black;
+  cursor: pointer;
+  border-radius:8px;
+}
+.selectDropdown option{
+  margin:16px;
+}
+
+.selectDropdown option:checked {
+  background-color: grey; /* Cor de fundo quando selecionadas */
+  color: black;
+}
+
+.selectDropdown option:hover {
+  background-color: white; /* Set the background color on hover */
+  color: black; /* Set the text color on hover */
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .th, .td {
+    border: 1px solid #56c2ca;
+    padding: 8px;
+    text-align: left;
+    max-width: 5%;
+    word-wrap: break-word; 
+  }
+
+  .th{
+    background-color: #56c2ca;
+  }
+
+
+  /*.section_padding{
+    margin-top:20%;
+  }*/
+.buttonChange{
+  margin-bottom:10px;
+}
+
+.buttonAddacount{
+  display: flex;
+  justify-content: center;
+  margin-right:auto;
+  margin-bottom: 10%;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--bluecolor2);
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: block;
+  /* Adicione outros estilos conforme necessário */
+}
+
+.buttonUsersDelete{
+  border: none; /* No border */
+    padding: 5px 15px; /* Padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-right: 2px;
+    transition: background-color 0.3s;
+    transition: color 0.15s;
+}
+
+.buttonUsersDelete:hover{
+  background-color: #FF7F7F;
+  color: white;
+}
