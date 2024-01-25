@@ -1,0 +1,12 @@
+flask
+flask-cors
+praw
+gunicorn
+py3-pinterest
+discordwebhook
+slack-webhook
+scheduler
+datetime
+requests
+setuptools
+firebase_admin
