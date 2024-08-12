@@ -72,9 +72,6 @@ npm install OR npm install --force
 npm start
 ```
 
-### Demo
-
-(Colocar Link do(s) video(s))
 
 ## Constraints
 
